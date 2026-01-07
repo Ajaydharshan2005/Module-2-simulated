@@ -28,7 +28,7 @@ However, the page is still served as static content.
 Actual regeneration happens only after the revalidation interval and is triggered by a new request.
 The change in seconds is due to the timestamp display, not because ISR runs on every request.
 
-### Reflection
+### Reflection 
 If the application scaled to 10x more users, using SSR everywhere would increase server cost.
 Using Static and Hybrid rendering would improve scalability, reduce load, and enhance performance.
 
